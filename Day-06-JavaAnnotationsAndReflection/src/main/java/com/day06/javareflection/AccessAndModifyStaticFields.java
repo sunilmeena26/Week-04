@@ -5,7 +5,7 @@ import java.lang.reflect.Field;
 // Create a class Configuration with a private static field API_KEY
 class Configuration {
     //Create a private static variable(field) to store API_KEY
-    private static String API_KEY = "AIzaSyDaGmWKa4JsXZ-HjGw7ISLn_3namBGewQe ";
+    private static String API_KEY = "AIhgmsvkekmgk-HjGj3gnGH_3ngcasdgu ";
 
     //Create a method to display the API_KEY
     public static void displayApiKey() {
@@ -33,7 +33,7 @@ public class AccessAndModifyStaticFields {
             apiKeyField.setAccessible(true);
 
             //update the API_KEY of private static field
-            apiKeyField.set(null, "AIzaSyBhKx_b0yj4erq8sZchmTw8BRXWyivLzW0");
+            apiKeyField.set(null, "AIjhbuegiyBhKx_b0yj4dbb3bwb4sd8BRjmdieW0babcjcdc");
 
             // Access the modified value of the private static field 'API_KEY'
             String modifiedApiKey = (String) apiKeyField.get(null);
